@@ -1,0 +1,30 @@
+
+//objects literal
+
+// const mysym = Symbol("key1")
+
+// const jsuser = {
+//     'Name': "sanjeev",
+//     Age: 23,
+//     email: 'sanjeevgiri123@gmail.com',
+//     isloggedIn: false,
+//     [mysym]:" mykey1"
+// }
+// console.log(jsuser.Name)
+// console.log(jsuser['Name'])
+// console.log(jsuser[mysym])
+
+
+// jsuser.email = "sanjeev123@google.com"
+// console.log(jsuser.email)
+// console.log(jsuser)
+
+//destruscturing of objects
+
+const course = {
+    coursename : "javascript",
+    price : 999,
+    courseinstructor : "sanjeev"
+}
+const {courseinstructor} = course;
+console.log(courseinstructor);
