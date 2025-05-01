@@ -34,7 +34,7 @@
 
 // for...in → used with objects to loop through keys
 //for each loop
-const coding =["js" ,"ruby" ,"python" ,"java" ,"react"]
-coding.forEach(function (value){
-   console.log(value)
-})
+// const coding =["js" ,"ruby" ,"python" ,"java" ,"react"]
+// coding.forEach(function (value){
+//    console.log(value)
+// })
